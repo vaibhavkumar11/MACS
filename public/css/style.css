@@ -1,0 +1,30 @@
+ /* for button-home page */
+#content {
+   z-index: 50;
+   position:fixed;
+   height: 100vh;
+   text-align: center;
+   padding: 35vh 10vh;
+   margin: 0 auto;
+ }
+
+ /* for floating action button-home page */
+ .icon-pos{
+    position: absolute;
+    left: -1.5px;
+ }
+
+ /* background-asymptotes,about us */
+ 
+body {
+  background-color: #dee4e6;
+}
+
+/* make footer icon and text black */
+.page-footer {
+  color: black;
+}
+
+.fa {
+  color: black;
+}
