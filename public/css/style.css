@@ -25,6 +25,39 @@ body {
   color: black;
 }
 
+/* to make icons black */
+.fa {
+  color: black;
+}
+
+/* position for text on parallax */
+h1{
+  padding-top: 120px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+/* text on parallax */
+.parallax-container h5 {
+  margin: 0;
+}
+
+/* footer styling */
+page-footer {
+  margin: 0;
+  padding: 0px;
+  padding-bottom: 0;
+  min-height: 0;
+  background-color:transparent;
+}
+
+.footer-copyright {
+  color: black;
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+}
+
 .fa {
   color: black;
 }

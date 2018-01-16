@@ -26,17 +26,20 @@ app.get("/team", function(req, res) {
   res.render("team");
 });
 
+//EVENTS
+app.get("/events", function(req, res) {
+  res.render("events");
+});
 
+// ABOUT-US
+app.get("/about", function(req, res) {
+  res.render("about");
+});
 
-// //EVENTS &  GALLERY
-// app.get("/events", function(req, res) {
-//   res.render("events");
-// });
-
-// //CONTACT-US
-// app.get("/contact", function(req, res) {
-//   app.render("contact");
-// });
+//CONTACT-US
+app.get("/contact", function(req, res) {
+  res.render("contact");
+});
 
 //LISTEN
 app.listen(3000, function(err) {
