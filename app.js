@@ -6,10 +6,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
+var port = process.env.PORT || 3000;
+
 //ROUTES
-// app.get("/", function(req, res) {
-//   res.redirect("home");
-// });
+app.get("/", function(req, res) {
+  res.redirect("home");
+});
 
 //HOME PAGE
 app.get("/home", function(req, res) {
@@ -42,6 +44,6 @@ app.get("/contact", function(req, res) {
 });
 
 //LISTEN
-app.listen(3000, function(err) {
+app.listen(port, function(err) {
   console.log("The MACS server has started");
 });
