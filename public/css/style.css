@@ -1,21 +1,21 @@
- /* for button-home page */
+/* for button-home page */
 #content {
-   z-index: 50;
-   position:fixed;
-   height: 100vh;
-   text-align: center;
-   padding: 35vh 10vh;
-   margin: 0 auto;
- }
+  z-index: 50;
+  position: fixed;
+  height: 100vh;
+  text-align: center;
+  padding: 35vh 10vh;
+  margin: 0 auto;
+}
 
- /* for floating action button-home page */
- .icon-pos{
-    position: absolute;
-    left: -1.5px;
- }
+/* for floating action button-home page */
+.icon-pos {
+  position: absolute;
+  left: -1.5px;
+}
 
- /* background-asymptotes,about us */
- 
+/* background-asymptotes,about us */
+
 body {
   background-color: #dee4e6;
 }
@@ -31,9 +31,9 @@ body {
 }
 
 /* position for text on parallax */
-h1{
+h1 {
   padding-top: 120px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
 
@@ -48,7 +48,7 @@ page-footer {
   padding: 0px;
   padding-bottom: 0;
   min-height: 0;
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .footer-copyright {
@@ -60,4 +60,21 @@ page-footer {
 
 .fa {
   color: black;
+}
+
+.card-image {
+  max-height: 350px;
+}
+
+.logo-header {
+  width:100%;
+  height: 100%;
+  max-width: 45px;
+  max-height: 45px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.events {
+  padding-left: 8px;
 }
