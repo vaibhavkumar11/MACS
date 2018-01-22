@@ -7,9 +7,9 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 //ROUTES
-app.get("/", function(req, res) {
-  res.redirect("home");
-});
+// app.get("/", function(req, res) {
+//   res.redirect("home");
+// });
 
 //HOME PAGE
 app.get("/home", function(req, res) {
