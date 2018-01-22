@@ -28,6 +28,7 @@ $.fn.serializeObject = function() {
      data: $form.serializeObject()
    }).success;
    // do something
-   alert("You have submitted the data")();
+   alert("Thank You.We will get back to you shortly");
+   window.location.reload();
  });
  
