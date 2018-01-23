@@ -13,19 +13,6 @@ $(document).ready(function() {
   $(".modal").modal();
 });
 
-//FOR PRELOADER
-$(document).ready(function() {
-  //Preloader
-  $(window).load(function() {
-    preloaderFadeOutTime = 500;
-    function hidePreloader() {
-      var preloader = $(".sk-cube-grid");
-      preloader.fadeOut(preloaderFadeOutTime);
-    }
-    hidePreloader();
-  });
-});
-
 //SLIDER
 $(document).ready(function() {
   $(".slider").slider({});
@@ -56,4 +43,11 @@ $(function() {
       }
   );
 });
+
+//FOR NAVBAR
+window.onscroll = () => {
+  const nav = document.querySelector('#my-nav');
+  if(this.scrollY <= 10) nav.className = 'transparent'; else nav.className = 'white';
+};
+
 
