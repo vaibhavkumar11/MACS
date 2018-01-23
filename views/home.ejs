@@ -1,128 +1,135 @@
 <% include ./partials/header.ejs %>
 
-   <div class="container">
-      <nav class="sidenav-trigger navbar-fixed transparent z-depth-0 ">
-         <div class="nav-wrapper">
-            <a href="/home" class="brand-logo">
-               <img class="logo-header" src="./img/logo.png" alt="">
-               <span class="logo-text black-text">MACS</span>
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-               <i class="material-icons black-text">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-               <li>
-                  <a href="/asymptotes" class=" black-text">Asymptotes</a>
-               </li>
-               <li>
-                  <a href="/events" class=" black-text">Events</a>
-               </li>
-               <li>
-                  <a href="/team" class="black-text">Team</a>
-               </li>
-               <li>
-                  <a href="/about" class=" black-text">About Us</a>
-               </li>
-               <li>
-                  <a href="/contact" class=" black-text">Contact Us</a>
-               </li>
+      <div class="container">
+            <nav class="sidenav-trigger navbar-fixed transparent z-depth-0 ">
+                  <div class="nav-wrapper">
+                        <a href="/home" class="brand-logo">
+                              <img class="logo-header" src="./img/logo.png" alt="">
+                              <span class="logo-text black-text">MACS</span>
+                        </a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                              <i class="material-icons black-text">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                              <li>
+                                    <a href="/asymptotes" class=" black-text">Asymptotes</a>
+                              </li>
+                              <li>
+                                    <a href="/events" class=" black-text">Events</a>
+                              </li>
+                              <li>
+                                    <a href="/team" class="black-text">Team</a>
+                              </li>
+                              <li>
+                                    <a href="/about" class=" black-text">About Us</a>
+                              </li>
+                              <li>
+                                    <a href="/contact" class=" black-text">Contact Us</a>
+                              </li>
+                        </ul>
+
+                  </div>
+            </nav>
+      </div>
+
+      <ul class="sidenav white" id="mobile-demo">
+            <li>
+                  <a href="/about">
+                        <i class="material-icons">info_outline</i>About Us</a>
+            </li>
+            <li>
+                  <a href="/team">
+                        <i class="material-icons">group</i> Team</a>
+            </li>
+            <li>
+                  <a href="/events">
+                        <i class="material-icons">event</i> Events</a>
+            </li>
+            <li>
+                  <a href="/gallery">
+                        <i class="material-icons">image</i>Gallery</a>
+            </li>
+            <li>
+                  <a href="/contact">
+                        <i class="material-icons">contacts</i>Contact Us</a>
+            </li>
+      </ul>
+
+      <div class=" slider fullscreen my-slider">
+            <ul class="slides">
+                  <li>
+                        <img src="./img/asymptotes.JPG">
+                        <!-- random image -->
+                        <div class="caption center-align black-text">
+                              <h3>Upwards and Onwards</h3>
+                              <h5>Just like an Asymptote, we believe in reaching for the heights. We push our limits to achieve
+                                    our goals and try to serve the best we can to nurture future engineers</h5>
+                        </div>
+                  </li>
+                  <li>
+                        <img src="./img/sig.jpg">
+                        <!-- random image -->
+                        <div class="caption left-align">
+                              <h3>Goals:</h3>
+                              <h5 class="light grey-text text-lighten-3">To expand knowledge, to learn, practice and master skills through workshops, seminars, interactive
+                                    sessions and symposiums</h5>
+                        </div>
+                  </li>
+                  <li>
+                        <img src="./img/pawn.JPG">
+                        <!-- random image -->
+                        <div class="caption right-align">
+                              <h3>Pawn stars</h3>
+                              <h5 class="light grey-text text-lighten-3">We turn dreams into reality. Here's a glimpse of one of our very intriguing and fun filled
+                                    event, The Pawn Stars. Inspired by the famous series, Harry Potter, we created a real
+                                    life chess board to amalgamate fun and learning</h5>
+                        </div>
+                  </li>
+                  <li>
+                        <img src="./img/maths.png">
+                        <!-- random image -->
+                        <div class="caption center-align black-text ">
+                              <h3>Mathematics, a strong tool</h3>
+                              <h5>Mathematics acts as a connecting link amongst all the branches of engineering and therefore,
+                                    we here at MACS provide an opportunity to students to showcase their mathematical, computational
+                                    and analytical prowess.</h5>
+                        </div>
+                  </li>
             </ul>
+      </div>
 
-         </div>
-      </nav>
-   </div>
-
-   <ul class="sidenav white" id="mobile-demo">
-      <li>
-         <a href="/about">
-            <i class="material-icons">info_outline</i>About Us</a>
-      </li>
-      <li>
-         <a href="/team">
-            <i class="material-icons">group</i> Team</a>
-      </li>
-      <li>
-         <a href="/events">
-            <i class="material-icons">event</i> Events</a>
-      </li>
-      <li>
-         <a href="/gallery">
-            <i class="material-icons">image</i>Gallery</a>
-      </li>
-      <li>
-         <a href="/contact">
-            <i class="material-icons">contacts</i>Contact Us</a>
-      </li>
-   </ul>
-
-   <div class=" slider fullscreen my-slider">
-      <ul class="slides">
-         <li>
-            <img src="./img/1.jpeg">
-            <!-- random image -->
-            <div class="caption center-align">
-               <h3>This is our big Tagline!</h3>
-               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-         </li>
-         <li>
-            <img src="./img/2.jpeg">
-            <!-- random image -->
-            <div class="caption left-align">
-               <h3>Left Aligned Caption</h3>
-               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-         </li>
-         <li>
-            <img src="./img/3.jpeg">
-            <!-- random image -->
-            <div class="caption right-align">
-               <h3>Right Aligned Caption</h3>
-               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-         </li>
-         <li>
-            <img src="./img/4.jpg">
-            <!-- random image -->
-            <div class="caption center-align">
-               <h3>This is our big Tagline!</h3>
-               <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-         </li>
-      </ul>
-   </div>
-
-   <div class="fixed-action-btn">
-      <a class="btn-floating btn-large red">
-         <i class="large material-icons">info_outline</i>
-      </a>
-      <ul>
-         <li>
-            <a class="btn-floating red" href="/events">
-               <i class="material-icons events">events</i>
+      <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red">
+                  <i class="large material-icons">info_outline</i>
             </a>
-         </li>
-         <li>
-            <a href="/contact" class="btn-floating green">
-               <i class="material-icons">help</i>
-            </a>
-         </li>
-         <li>
-            <a href="https://www.facebook.com/DTU.MACS/" class="btn-floating blue">
-               <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-         </li>
-      </ul>
-   </div>
+            <ul>
+                  <li>
+                        <a class="btn-floating red" href="/events">
+                              <i class="material-icons events">events</i>
+                        </a>
+                  </li>
+                  <li>
+                        <a href="/contact" class="btn-floating green">
+                              <i class="material-icons">help</i>
+                        </a>
+                  </li>
+                  <li>
+                        <a href="https://www.facebook.com/DTU.MACS/" class="btn-floating blue">
+                              <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                  </li>
+            </ul>
+      </div>
 
 
 
-   <div id="content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci exercitationem ab fugiat praesentium accusamus eaque
-         maiores beatae sed voluptatum quae! Excepturi, odio nam eum consequatur labore officiis cumque perspiciatis nulla.
-      </p>
-      <a class="waves-effect waves-light btn-large cyan accent-5 hoverable" id="button" href="/about">About Us</a>
-   </div>
+      <!-- <div id="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci exercitationem ab fugiat praesentium accusamus
+                  eaque maiores beatae sed voluptatum quae! Excepturi, odio nam eum consequatur labore officiis cumque perspiciatis
+                  nulla.
+            </p>
+            <a class="waves-effect waves-light btn-large cyan accent-5 hoverable" id="button" href="/about">About Us</a>
+      </div> -->
 
 
-   <% include ./partials/footer.ejs %>
+      <% include ./partials/footer.ejs %>

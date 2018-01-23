@@ -83,3 +83,7 @@ page-footer {
 .events {
   padding-left: 9px;
 }
+
+.slider .slides li img {
+  opacity: 0.7;
+}

@@ -29,6 +29,16 @@ $.fn.serializeObject = function() {
    }).success;
    // do something
    alert("Thank You.We will get back to you shortly");
+   
+  $(document).ready(function () {
+    resetForms();
+});
+
+function resetForms() {
+    for (i = 0; i < document.forms.length; i++) {
+        document.forms[i].reset();
+    }
+}
    window.location.reload();
  });
  
