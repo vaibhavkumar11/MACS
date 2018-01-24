@@ -43,7 +43,7 @@ h1 {
 }
 
 /* footer styling */
-page-footer {
+.page-footer {
   margin: 0;
   padding: 0px;
   padding-bottom: 0;
@@ -67,7 +67,7 @@ page-footer {
 }
 
 .logo-header {
-  width:100%;
+  width: 100%;
   height: 100%;
   max-width: 50px;
   max-height: 50px;
@@ -86,4 +86,20 @@ page-footer {
 
 .slider .slides li img {
   opacity: 0.7;
+}
+
+.carousel-fixed-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 500;
+}
+
+.macs-logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  max-width: 25%;
+  max-height: 25%;
 }

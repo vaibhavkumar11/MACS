@@ -1,74 +1,129 @@
 <% include ./partials/header.ejs %>
 
-   <div class=" navbar-fixed">
-      <nav class="sidenav-trigger transparent z-depth-1" id="my-nav">
-         <div class="nav-wrapper container">
-            <a href="/home" class="brand-logo">
-               <img class="logo-header" src="./img/logo.png" alt="">
-               <span class="logo-text black-text">MACS</span>
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-               <i class="material-icons black-text">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-               <li>
-                  <a href="/asymptotes" class=" black-text">Asymptotes</a>
-               </li>
-               <li>
-                  <a href="/events" class=" black-text">Events</a>
-               </li>
-               <li>
-                  <a href="/team" class="black-text">Team</a>
-               </li>
-               <li>
-                  <a href="/about" class=" black-text">About Us</a>
-               </li>
-               <li>
-                  <a href="/contact" class=" black-text">Contact Us</a>
-               </li>
-            </ul>
-            <ul class="sidenav light-blue accent-1" id="mobile-demo">
-               <li>
-                  <a href="/about">About Us</a>
-               </li>
-               <li>
-                  <a href="/asymptotes">Asymptotes</a>
-               </li>
-               <li>
-                  <a href="/gallery">Gallery</a>
-               </li>
-               <li>
-                  <a href="/contact">Contact Us</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-   </div>
-
-   <div>
-      <img class="responsive-img" src="./img/asymp.jpg" alt="" srcset="">
-   </div>
-
-
-   <footer class="page-footer transparent">
-      <div class="container">
-         <div class=" center-align fa-2x ">
-            <a href="#" class="twitter">
-               <i class="fa fa-twitter fa-fw  "></i>
-            </a>
-            <a href="https://www.facebook.com/DTU.MACS/" class="facebook">
-               <i class="fa fa-facebook-official fa-fw"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCfwkE4OIUreOaRBLhUrcsBQ" class="google">
-               <i class="fa fa-youtube fa-fw"></i>
-            </a>
-         </div>
+      <div class=" navbar-fixed">
+            <nav class="sidenav-trigger white z-depth-1" id="my-nav">
+                  <div class="nav-wrapper container">
+                        <a href="/home" class="brand-logo">
+                              <img class="logo-header" src="./img/logo.png" alt="">
+                              <span class="logo-text black-text">MACS</span>
+                        </a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                              <i class="material-icons black-text">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                              <li>
+                                    <a href="/asymptotes" class=" black-text">Asymptotes</a>
+                              </li>
+                              <li>
+                                    <a href="/events" class=" black-text">Events</a>
+                              </li>
+                              <li>
+                                    <a href="/team" class="black-text">Team</a>
+                              </li>
+                              <li>
+                                    <a href="/about" class=" black-text">About Us</a>
+                              </li>
+                              <li>
+                                    <a href="/contact" class=" black-text">Contact Us</a>
+                              </li>
+                        </ul>
+                  </div>
+            </nav>
       </div>
-      <div class="footer-copyright">
-         <div class="container center-align">
-            © 2018 MACS DTU
-         </div>
-      </div>
-   </footer>
 
-   <% include ./partials/footer.ejs %>
+      <ul class="sidenav white" id="mobile-demo">
+            <li>
+                  <a href="/about">
+                        <i class="material-icons">info_outline</i>About Us</a>
+            </li>
+            <li>
+                  <a href="/team">
+                        <i class="material-icons">group</i> Team</a>
+            </li>
+            <li>
+                  <a href="/events">
+                        <i class="material-icons">event</i> Events</a>
+            </li>
+            <li>
+                  <a href="/gallery">
+                        <i class="material-icons">image</i>Gallery</a>
+            </li>
+            <li>
+                  <a href="/contact">
+                        <i class="material-icons">contacts</i>Contact Us</a>
+            </li>
+      </ul>
+
+      <div class="slider">
+            <div class="carousel-fixed-item center">
+                  <h3>Add content</h3>
+            </div>
+            <ul class="slides">
+                  <li>
+                        <img src="https://lorempixel.com/580/250/nature/1">
+                  </li>
+                  <li>
+                        <img src="https://lorempixel.com/580/250/nature/2">
+                  </li>
+                  <li>
+                        <img src="https://lorempixel.com/580/250/nature/3">
+                  </li>
+                  <li>
+                        <img src="https://lorempixel.com/580/250/nature/4">
+                  </li>
+            </ul>
+      </div>
+
+      <div class="macs container">
+            <div class="row">
+                  <div class="col s4">
+                        <img src="./img/logo.png" alt="" class=" responsive-img macs-logo">
+                  </div>
+                  <div class="col s8">
+                        <p class="macs-text">
+                              <br><br><br><br>
+                              "Mathematics is to Computer Science what notes are to music. Go down deep enough into anything and you will find mathematics
+                              ." MACS (Mathematics and Computing Society), the student body of the Applied Mathematics Department
+                              of DTU was established in 2013 and since then it aims to provide a platform to its students
+                              to showcase, sharpen and hone their talents through various technical and non technical competitions.
+                              Also the society focuses upon learning through workshops, SIGs, seminars, guest lectures and
+                              various symposiums.
+                        </p>
+                  </div>
+            </div>
+      </div>
+
+      <div class="tech-fest">
+            <p class="tech-fest-text">
+                  About our annual tech fest: Asymptotes is the three-day annual tech fest organized by MACS in an attempt to help students
+                  showcase their immense technical and non technical skills in the fields of Computer Science, Finance, Marketing
+                  and Management. Around 25,000 students from colleges all over India attend the Annual Tech Fest of DTU
+                  held in the month of February. Asymptotes’17 received a tremendous response from thousands who attended
+                  it last year. We will be carrying forward our flagship events from past years and will be adding some new
+                  events in our list this year.
+            </p>
+      </div>
+
+
+      <footer class="page-footer transparent">
+            <div class="container">
+                  <div class=" center-align fa-2x ">
+                        <a href="#" class="twitter">
+                              <i class="fa fa-twitter fa-fw  "></i>
+                        </a>
+                        <a href="https://www.facebook.com/DTU.MACS/" class="facebook">
+                              <i class="fa fa-facebook-official fa-fw"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfwkE4OIUreOaRBLhUrcsBQ" class="google">
+                              <i class="fa fa-youtube fa-fw"></i>
+                        </a>
+                  </div>
+            </div>
+            <div class="footer-copyright">
+                  <div class="container center-align">
+                        © 2018 MACS DTU
+                  </div>
+            </div>
+      </footer>
+
+      <% include ./partials/footer.ejs %>

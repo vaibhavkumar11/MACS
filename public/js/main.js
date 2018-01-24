@@ -15,12 +15,15 @@ $(document).ready(function() {
 
 //SLIDER
 $(document).ready(function() {
-  $(".slider").slider({});
+  $(".slider").slider({
+    indicators: false
+  });
 });
 
 //CAROUSEL
-$(document).ready(function() {
-  $(".carousel").carousel();
+$(".carousel.carousel-slider").carousel({
+  fullWidth: true,
+  indicators: true
 });
 
 //FIXED ACTION BUTTON
@@ -29,25 +32,72 @@ $(document).ready(function() {
 });
 
 //PARALLAX
-$(document).ready(function(){
-  $('.parallax').parallax();
+$(document).ready(function() {
+  $(".parallax").parallax();
 });
 
 //FOR CARD-REVEAL
 $(function() {
-  $('.card').hover(
-      function() {
-          $(this).find('> .card-image > img.activator').click();
-      }, function() {
-          $(this).find('> .card-reveal > .card-title').click();
-      }
+  $(".card").hover(
+    function() {
+      $(this)
+        .find("> .card-image > img.activator")
+        .click();
+    },
+    function() {
+      $(this)
+        .find("> .card-reveal > .card-title")
+        .click();
+    }
   );
 });
 
 //FOR NAVBAR
 window.onscroll = () => {
-  const nav = document.querySelector('#my-nav');
-  if(this.scrollY <= 10) nav.className = 'transparent'; else nav.className = 'white';
+  const nav = document.querySelector("#my-nav");
+  if (this.scrollY <= 10) nav.className = "transparent";
+  else nav.className = "white";
 };
 
+//FOR GALLERY PAGE
+$(function() {
+  $(".img-w").each(function() {
+    $(this).wrap("<div class='img-c'></div>");
+    let imgSrc = $(this)
+      .find("img")
+      .attr("src");
+    $(this).css("background-image", "url(" + imgSrc + ")");
+  });
 
+  $(".img-c").click(function() {
+    let w = $(this).outerWidth();
+    let h = $(this).outerHeight();
+    let x = $(this).offset().left;
+    let y = $(this).offset().top;
+
+    $(".active")
+      .not($(this))
+      .remove();
+    let copy = $(this).clone();
+    copy
+      .insertAfter($(this))
+      .height(h)
+      .width(w)
+      .delay(500)
+      .addClass("active");
+    $(".active").css("top", y - 8);
+    $(".active").css("left", x - 8);
+
+    setTimeout(function() {
+      copy.addClass("positioned");
+    }, 0);
+  });
+});
+
+$(document).on("click", ".img-c.active", function() {
+  let copy = $(this);
+  copy.removeClass("positioned active").addClass("postactive");
+  setTimeout(function() {
+    copy.remove();
+  }, 500);
+});

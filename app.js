@@ -43,6 +43,11 @@ app.get("/contact", function(req, res) {
   res.render("contact");
 });
 
+//GALLERY
+app.get("/gallery", function(req, res) {
+  res.render("gallery");
+});
+
 //LISTEN
 app.listen(port, function(err) {
   console.log("The MACS server has started");
