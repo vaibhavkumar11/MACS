@@ -159,3 +159,14 @@ i.large.material-icons{
   background: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media only screen and (max-width: 500px) {
+  .slides li .caption h3 {
+      font-size: 30px;
+  }
+  .slides li .caption h5 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+}

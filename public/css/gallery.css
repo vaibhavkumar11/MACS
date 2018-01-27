@@ -85,6 +85,7 @@
  }
  
  .img-c {
+   position: relative;
    transition: width ease 400ms, height ease 350ms,
      left cubic-bezier(0.4, 0, 0.2, 1) 420ms,
      top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
@@ -96,11 +97,14 @@
  }
  
  .img-c.active {
-   width: 100% !important;
-   height: 100% !important;
+   width: 50% !important;
+   height: 50% !important;
    position: absolute;
+   top: 50%;
+   left: 50%;
    z-index: 2;
-   //transform: translateX(-50%);
+   transform: translate(50% ,50%);
+   margin-top: 10vh;
  }
  
  .img-c.postactive {
