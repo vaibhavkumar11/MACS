@@ -45,11 +45,13 @@
    margin-top: 5px;
    margin-right: 5px;
  }
- 
+
  .logo-text {
-   position: relative;
-   bottom: 15px;
- }
+  position: relative;
+  bottom: 15px;
+  font-family: fantasy;
+  letter-spacing: 4px;
+}
  
  .gallery {
    padding-top: 30px;

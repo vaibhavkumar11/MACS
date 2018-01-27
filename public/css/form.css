@@ -97,4 +97,7 @@ textarea {
 .logo-text {
   position: relative;
   bottom: 15px;
+  font-family: fantasy;
+  letter-spacing: 4px;
 }
+ 

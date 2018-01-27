@@ -3349,10 +3349,8 @@ nav i.material-icons {
   line-height: 56px;
 }
 nav .nav-wrapper {
-  margin: -5px 5px;
   position: relative;
   height: 100%;
-  padding: 0 5px;
 }
 @media only screen and (min-width: 993px) {
   nav a.sidenav-trigger {
@@ -3501,12 +3499,12 @@ nav .input-field label.active i {
   position: relative;
   height: 56px;
   z-index: 997;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 .navbar-fixed nav {
   position: fixed;
-  height: 70px;
-  padding-top: 3px;
+  /* height: 70px;
+  padding-top: 3px; */
 }
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
