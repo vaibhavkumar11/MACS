@@ -132,6 +132,8 @@ span .logo-text {
   background-color: rgb(216, 44, 44);
 }
 
+
+
 /* i.large.material-icons{
   background: #ff2323;
   color: #ffffff;
@@ -176,5 +178,35 @@ span .logo-text {
     right: 0;
     bottom: 25%;
     z-index: 500;
+  }
+}
+
+#attention{
+  position: relative;
+  z-index: 2;
+}
+
+#attention a {
+  position: absolute;
+  top: 80vh;
+  left: 10px;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  border:0;
+  color: whitesmoke;
+  border: 0.5px solid whitesmoke;
+  border-radius: 5px;
+  padding:6px;
+  animation: shadow 1s ease-in-out infinite alternate;
+}
+
+@keyframes shadow{
+  0%{
+    box-shadow: 1px 1px 1px whitesmoke;
+  }
+  100%{
+    box-shadow: 1px 1px 50px whitesmoke;
   }
 }
