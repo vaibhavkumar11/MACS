@@ -94,11 +94,11 @@ span .logo-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.hide-on-med-and-down li a {
+/* .hide-on-med-and-down li a {
   background: rgb(255, 67, 67);
   margin-left: 2px;
   border-bottom: 2px solid white;
-}
+} */
 
 span .logo-text {
   color: black;
