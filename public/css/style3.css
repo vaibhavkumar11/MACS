@@ -123,19 +123,28 @@ nav ul a {
   color: black;
 }
 
-
-i.header-2.material-icons{
+i.header-2.material-icons {
   color: rgb(77, 75, 73);
 }
 
 .asymptote-p {
-  border:1px solid #ff2b3e;
+  border: 1px solid #ff2b3e;
   background: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 5px;
 }
 
-.container .center-align  {
+.container .center-align {
   color: rgb(58, 58, 58);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    height: 340px;
+  }
+  .card-image {
+    max-height: 200px;
+  }
 }
