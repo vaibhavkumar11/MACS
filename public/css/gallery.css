@@ -50,6 +50,19 @@ page-footer {
   letter-spacing: 4px;
 }
 
+#mobile-demo {
+  background: #000000cf;
+  border-right: 2px solid #ff2b3e;
+}
+
+#mobile-demo li i,
+#mobile-demo li a {
+  color: antiquewhite;
+}
+.sidenav li > a:hover {
+  background-color: rgb(216, 44, 44);
+}
+
 .tz-gallery {
   padding: 40px;
 }
