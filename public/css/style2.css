@@ -38,9 +38,14 @@ h1 {
 }
 
 /* button positioning */
-.btn {
-  position: relative;
-  left: 5%;
+i {
+  padding-top: 4px;
+  padding-left: 1px;
+}
+
+.btn-floating {
+  position: absolute;
+  right: 5%;
 }
 
 .logo-header {
@@ -70,4 +75,8 @@ h1 {
 }
 .sidenav li > a:hover {
   background-color: rgb(216, 44, 44);
+}
+
+.card-image {
+  height: 251px;
 }
