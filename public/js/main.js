@@ -21,9 +21,8 @@ $(document).ready(function() {
 });
 
 //CAROUSEL
-$(".carousel.carousel-slider").carousel({
-  fullWidth: true,
-  indicators: true
+$(document).ready(function() {
+  $(".carousel").carousel();
 });
 
 //FIXED ACTION BUTTON
@@ -58,5 +57,3 @@ window.onscroll = () => {
   if (this.scrollY <= 10) nav.className = "transparent";
   else nav.className = "white";
 };
-
-

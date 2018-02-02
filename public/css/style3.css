@@ -140,6 +140,14 @@ i.header-2.material-icons {
   font-family: "Times New Roman", Times, serif;
 }
 
+.tech-fest-text {
+  font-size: 17px;
+}
+.macs-text {
+  font-size: 17px;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 500px) {
   .card {
     height: 340px;
@@ -147,4 +155,21 @@ i.header-2.material-icons {
   .card-image {
     max-height: 200px;
   }
+  .card-reveal p {
+    font-size: 13px;
+  }
+}
+
+.sponsor-imgs {
+  /* border-radius: 50%; */
+  height: 200px;
+  border: 1px solid black;
+}
+
+.carousel {
+  padding-top: 0;
+}
+
+.banner-image {
+  width: 100vw;
 }
