@@ -95,4 +95,9 @@ page-footer {
   .container.gallery-container {
     border-radius: 0;
   }
+  .tz-gallery {
+    padding: 0;
 }
+}
+
+
