@@ -101,10 +101,10 @@ i {
 
 @media only screen and (max-width: 650px) {
   .card-image {
-    height: 150px;
+    height: 200px;
   }
   .card {
-    height: 250px;
+    height: 280px;
   }
 }
 
