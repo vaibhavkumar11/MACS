@@ -49,6 +49,19 @@ page-footer {
   font-family: fantasy;
   letter-spacing: 4px;
 }
+.logo-sidenav {
+  width: 100%;
+  height: 100%;
+  max-width: 49px;
+  max-height: 40px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.sidenav-text {
+  position: relative;
+  bottom: 15px;
+}
 
 #mobile-demo {
   background: #000000cf;

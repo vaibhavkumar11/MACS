@@ -189,8 +189,6 @@ span .logo-text {
   background-color: rgb(216, 44, 44);
 }
 
-
-
 /* i.large.material-icons{
   background: #ff2323;
   color: #ffffff;
@@ -241,7 +239,7 @@ span .logo-text {
    }
 }
 
-#attention{
+#attention {
   position: relative;
   z-index: 2;
 }
@@ -261,15 +259,30 @@ span .logo-text {
   color: whitesmoke;
   border: 0.5px solid whitesmoke;
   border-radius: 5px;
-  padding:6px;
+  padding: 6px;
   animation: shadow 1s ease-in-out infinite alternate;
 }
 
-@keyframes shadow{
-  0%{
+.logo-sidenav {
+  width: 100%;
+  height: 100%;
+  max-width: 49px;
+  max-height: 40px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.sidenav-text {
+  position: relative;
+  bottom: 15px;
+}
+
+@keyframes shadow {
+  0% {
     box-shadow: 1px 1px 1px whitesmoke;
   }
-  100%{
+  100% {
     box-shadow: 1px 1px 50px whitesmoke;
   }
 }
+

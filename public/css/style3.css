@@ -2,6 +2,10 @@ body {
   background-color: #dee4e6;
 }
 
+.text-style {
+  font-family: Roboto;
+}
+
 /* make footer icon and text black */
 .page-footer {
   color: black;
@@ -161,6 +165,20 @@ i.header-2.material-icons {
   font-weight: 500;
 }
 
+.logo-sidenav {
+  width: 100%;
+  height: 100%;
+  max-width: 49px;
+  max-height: 40px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.sidenav-text {
+  position: relative;
+  bottom: 15px;
+}
+
 @media only screen and (max-width: 500px) {
   .card {
     height: 340px;
@@ -185,4 +203,21 @@ i.header-2.material-icons {
 
 .banner-image {
   width: 100vw;
+}
+
+hr {
+  border:none;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  box-shadow: 0 20px 140px 40px #333;
+  margin: -50px auto 10px;
+}
+
+.about-us{
+  font-family: Roboto;
+  color: whitesmoke;
+}
+.parallax-container{
+  border: 4px solid #b1afab;
 }
