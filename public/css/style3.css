@@ -2,6 +2,10 @@ body {
   background-color: #dee4e6;
 }
 
+.text-style {
+  font-family: Roboto;
+}
+
 /* make footer icon and text black */
 .page-footer {
   color: black;
