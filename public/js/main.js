@@ -1,4 +1,3 @@
-
 //FOR SIDENAV
 $(document).ready(function() {
   $(".sidenav").sidenav();
@@ -59,3 +58,7 @@ window.onscroll = () => {
   else nav.className = "white";
 };
 
+//TOOLTIPS
+$(document).ready(function() {
+  $(".tooltipped").tooltip();
+});

@@ -61,7 +61,12 @@ h1 {
   margin-right: 5px;
 }
 
-
+.logo-text {
+  position: relative;
+  bottom: 15px;
+  font-family: fantasy;
+  letter-spacing: 4px;
+}
 
 .carousel-fixed-item {
   position: absolute;
@@ -129,7 +134,7 @@ i.header-2.material-icons {
   font-family: "Times New Roman", Times, serif;
 }
 
-.container .center-align h3{
+.container .center-align h3 {
   text-transform: uppercase;
   font-size: 100px;
 }
@@ -156,23 +161,6 @@ i.header-2.material-icons {
   bottom: 15px;
 }
 
-@media only screen and (max-width: 500px) {
-  .container .center-align h3{
-    font-size: 25px;
-    font-weight: bolder;
-    color: #3c3c3c;;
-  }
-  .card {
-    height: 340px;
-  }
-  .card-image {
-    max-height: 200px;
-  }
-  .card-reveal p {
-    font-size: 13px;
-  }
-}
-
 .sponsor-imgs {
   /* border-radius: 50%; */
   height: 200px;
@@ -188,7 +176,7 @@ i.header-2.material-icons {
 }
 
 hr {
-  border:none;
+  border: none;
   width: 100%;
   height: 50px;
   margin-top: 0;
@@ -196,10 +184,35 @@ hr {
   margin: -50px auto 10px;
 }
 
-.about-us{
+.about-us {
   font-family: Roboto;
   color: whitesmoke;
 }
-.parallax-container{
+.parallax-container {
   border: 4px solid #b1afab;
+}
+
+.card-image {
+  max-height: 300px;
+}
+
+.card {
+  height: 420px;
+}
+
+@media only screen and (max-width: 500px) {
+  .container .center-align h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3c3c3c;
+  }
+  .card {
+    height: 280px;
+  }
+  .card-image {
+    max-height: 150px;
+  }
+  .card-reveal p {
+    font-size: 13px;
+  }
 }
