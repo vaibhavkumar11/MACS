@@ -128,3 +128,15 @@ i {
   }
 }
 
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .card .card-content{
+    margin-top: -54px;
+    font-size: 12px;
+  }
+  .card .card-content .card-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
