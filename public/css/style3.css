@@ -216,3 +216,23 @@ hr {
     font-size: 13px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .logo-text {
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  a.brand-logo{
+    display: flex;
+  }
+  .card-image{
+    height: 150px;
+  }
+  .card .card-content .card-title {
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 0;
+  }
+}
